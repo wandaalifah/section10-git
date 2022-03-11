@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Demo Frontend</title>
+        <style>
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .content {
+                height: 40px;
+                width: 100%;
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .blue {
+                background-color: blue;
+            }
+
+            @media screen and (min-width: 500px) {
+            .content {
+                width: 50%;
+             }
+            }
+        </style>
+        <script>
+            function showAlert() {
+                alert('Halo kawan');
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content red">
+                <button onclick="showAlert">Tampilkan Alert</button>
+            </div>
+            <div class="content blue">
+
+            </div>
+        </div>
+    </body>
+</html>
